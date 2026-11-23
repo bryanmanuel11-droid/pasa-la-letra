@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="crema">#F6EFE3</color>
+    <style name="Theme.PasaLaLetra" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/crema</item>
+    </style>
+</resources>

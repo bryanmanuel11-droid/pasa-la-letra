@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icono: ficha amarilla con la letra A y una ficha roja pequeña que "se pasa". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- sombra de la ficha grande -->
+    <path
+        android:fillColor="#1B1A20"
+        android:pathData="M38,37h30a6,6 0 0 1 6,6v30a6,6 0 0 1 -6,6h-30a6,6 0 0 1 -6,-6v-30a6,6 0 0 1 6,-6z" />
+    <!-- ficha grande -->
+    <path
+        android:fillColor="#FFC93C"
+        android:strokeColor="#1B1A20"
+        android:strokeWidth="2.5"
+        android:pathData="M38,33h30a6,6 0 0 1 6,6v30a6,6 0 0 1 -6,6h-30a6,6 0 0 1 -6,-6v-30a6,6 0 0 1 6,-6z" />
+    <!-- letra A -->
+    <path
+        android:fillColor="#1B1A20"
+        android:fillType="evenOdd"
+        android:pathData="M50,41h6l9,26h-6l-1.9,-5.6h-8.2l-1.9,5.6h-6zM53,48.5l-2.6,8h5.2z" />
+    <!-- ficha roja pequeña -->
+    <path
+        android:fillColor="#1B1A20"
+        android:pathData="M70,24h10a4,4 0 0 1 4,4v10a4,4 0 0 1 -4,4h-10a4,4 0 0 1 -4,-4v-10a4,4 0 0 1 4,-4z" />
+    <path
+        android:fillColor="#D93A22"
+        android:strokeColor="#1B1A20"
+        android:strokeWidth="2"
+        android:pathData="M70,21h10a4,4 0 0 1 4,4v10a4,4 0 0 1 -4,4h-10a4,4 0 0 1 -4,-4v-10a4,4 0 0 1 4,-4z" />
+</vector>

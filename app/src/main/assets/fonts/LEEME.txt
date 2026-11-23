@@ -1,0 +1,2 @@
+Las fuentes bricolage.ttf y dmsans.ttf se descargan solas al compilar en GitHub (scripts/fetch-fonts.sh).
+Si no están, la app usa la letra del sistema.
