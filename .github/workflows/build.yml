@@ -30,7 +30,8 @@ jobs:
       - name: Descargar fuentes (Bricolage Grotesque y DM Sans)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash scripts/fetch-fonts.sh || echo "Sin fuentes: la app usará la letra del sistema"
+        run: |
+          bash scripts/fetch-fonts.sh || echo "Sin fuentes, la app usará la letra del sistema"
 
       - name: Compilar la APK
         run: |
